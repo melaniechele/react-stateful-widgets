@@ -20,7 +20,9 @@ STEP 0:
 
 STEP 1:
   Using the state hook, create a 'count', 'setCount' pair.
-  The 'count' state should be initialized to the number zero.
+  The 'count' state should be initialized to the number zero
+
+
 
 STEP 2:
   The 'style' object has the 'color' property hard-coded to "royalblue".
@@ -49,10 +51,10 @@ STEP 6:
 import React from 'react'; /* STEP 0 */
 
 export default function Counter() {
-  /* STEP 1 */
+const number = 0;
 
   const increment = () => {
-    /* STEP 4 */
+    let increment = number++
   };
   const decrement = () => {
     /* STEP 5 */
