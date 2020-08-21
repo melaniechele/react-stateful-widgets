@@ -34,7 +34,7 @@ This project includes a `src/components` folder containing several React compone
 2. Each component's event handlers allow the user of the app to update state.
 3. Updated state is correctly reflected in the DOM for each component.
 
-#### Steps
+#### Steps hi
 
 - [ ] You will add functionality to all components inside inside `src/components`.
 - [ ] Work on the components **in the same order in which they display in Chrome** (to go from easiest challenge to hardest).
